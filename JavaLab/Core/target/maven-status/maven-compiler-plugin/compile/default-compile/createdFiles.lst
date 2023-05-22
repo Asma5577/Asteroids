@@ -1,0 +1,3 @@
+org\example\asteroids\main\Game.class
+org\example\asteroids\main\Main.class
+org\example\asteroids\managers\GameInputProcessor.class
