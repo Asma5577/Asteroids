@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Common" />
-    <orderEntry type="module" module-name="Bullet" />
-    <orderEntry type="module" module-name="CommonBullet" />
+    <orderEntry type="module" module-name="Common (1)" />
+    <orderEntry type="module" module-name="Bullet (1)" />
+    <orderEntry type="module" module-name="CommonBullet (1)" />
   </component>
 </module>

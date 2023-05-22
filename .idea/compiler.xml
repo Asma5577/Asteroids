@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CommonEnemy (1)" />
         <module name="Bullet" />
         <module name="Player" />
         <module name="CommonEnemy" />
-        <module name="Asteroid" />
-        <module name="JavaLab" />
+        <module name="Bullet (1)" />
+        <module name="Collision (1)" />
+        <module name="Player (1)" />
         <module name="Collision" />
         <module name="CommonAsteroids" />
-        <module name="Enemy" />
+        <module name="Enemy (1)" />
         <module name="CommonBullet" />
+        <module name="Asteroid (1)" />
         <module name="Common" />
+        <module name="Asteroid" />
+        <module name="Core (1)" />
+        <module name="Enemy" />
+        <module name="CommonBullet (1)" />
+        <module name="Common (1)" />
+        <module name="CommonAsteroids (1)" />
         <module name="Core" />
       </profile>
     </annotationProcessing>

@@ -30,14 +30,14 @@
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-box2d-platform:natives-desktop:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.badlogicgames.gdx:gdx-freetype-platform:natives-desktop:1.11.0" level="project" />
-    <orderEntry type="module" module-name="Common" />
-    <orderEntry type="module" module-name="Player" />
-    <orderEntry type="module" module-name="Enemy" />
-    <orderEntry type="module" module-name="CommonEnemy" />
-    <orderEntry type="module" module-name="Asteroid" />
-    <orderEntry type="module" module-name="CommonAsteroids" />
-    <orderEntry type="module" module-name="Bullet" />
-    <orderEntry type="module" module-name="CommonBullet" />
-    <orderEntry type="module" module-name="Collision" />
+    <orderEntry type="module" module-name="Common (1)" />
+    <orderEntry type="module" module-name="Player (1)" />
+    <orderEntry type="module" module-name="Enemy (1)" />
+    <orderEntry type="module" module-name="CommonEnemy (1)" />
+    <orderEntry type="module" module-name="Asteroid (1)" />
+    <orderEntry type="module" module-name="CommonAsteroids (1)" />
+    <orderEntry type="module" module-name="Bullet (1)" />
+    <orderEntry type="module" module-name="CommonBullet (1)" />
+    <orderEntry type="module" module-name="Collision (1)" />
   </component>
 </module>
