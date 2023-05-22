@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Asteroid/Asteroid.iml" filepath="$PROJECT_DIR$/GameLab/Asteroid/Asteroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Bullet/Bullet.iml" filepath="$PROJECT_DIR$/GameLab/Bullet/Bullet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Collision/Collision.iml" filepath="$PROJECT_DIR$/GameLab/Collision/Collision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Common/Common.iml" filepath="$PROJECT_DIR$/GameLab/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/CommonAsteroids/CommonAsteroids.iml" filepath="$PROJECT_DIR$/GameLab/CommonAsteroids/CommonAsteroids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/CommonBullet/CommonBullet.iml" filepath="$PROJECT_DIR$/GameLab/CommonBullet/CommonBullet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/CommonEnemy/CommonEnemy.iml" filepath="$PROJECT_DIR$/GameLab/CommonEnemy/CommonEnemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Core/Core.iml" filepath="$PROJECT_DIR$/GameLab/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/GameLab/Enemy/Enemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/GameLab.iml" filepath="$PROJECT_DIR$/GameLab/GameLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLab/JavaLab.iml" filepath="$PROJECT_DIR$/JavaLab/JavaLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Master.iml" filepath="$PROJECT_DIR$/.idea/Master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GameLab/Player/Player.iml" filepath="$PROJECT_DIR$/GameLab/Player/Player.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/GameLab/Asteroid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Asteroid/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Bullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Bullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Collision/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Collision/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonAsteroids/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonAsteroids/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonBullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonEnemy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/CommonEnemy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Enemy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Enemy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Player/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/Player/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GameLab/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Asteroid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Asteroid/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Bullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Bullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Collision/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Collision/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonAsteroids/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonAsteroids/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonBullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonEnemy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/CommonEnemy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Enemy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Enemy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Player/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/Player/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaLab/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
