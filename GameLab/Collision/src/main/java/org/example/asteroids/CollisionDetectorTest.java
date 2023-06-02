@@ -24,20 +24,20 @@ public class CollisionDetectorTest {
     }
 
     @org.junit.jupiter.api.Test
-    @DisplayName("They collide")
+    @DisplayName("Collide")
     void collide() {
         player.add(new PositionPart(5,5,5));
         enemy.add(new PositionPart(5,5,5));
         assertTrue(collisionDetector.collides(player,enemy));
-        System.out.println("They collide");
+        System.out.println("Collision happen between Player and Enemy");
 
     }
     @org.junit.jupiter.api.Test
-    @DisplayName("They do not collide")
+    @DisplayName("Do not collide")
     void NotCollide() {
         player.add(new PositionPart(5,5,5));
         enemy.add(new PositionPart(12,12,5));
         assertFalse(collisionDetector.collides(player,enemy));
-        System.out.println("They do not collide");
+        System.out.println("Player and Enemy do not collide");
     }
 }
