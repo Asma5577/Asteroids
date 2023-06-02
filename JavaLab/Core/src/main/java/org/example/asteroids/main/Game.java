@@ -21,8 +21,10 @@ import org.example.asteroids.EnemyControlSystem;
 import org.example.asteroids.EnemyPlugin;
 import org.example.asteroids.PlayerControlSystem;
 import org.example.asteroids.PlayerPlugin;
+import org.example.asteroids.util.SPILocator;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 public class Game implements ApplicationListener {
     private static OrthographicCamera cam;
@@ -152,5 +154,16 @@ public class Game implements ApplicationListener {
 
     @Override
     public void dispose() {
+    }
+    private Collection<? extends IGamePluginService> getPluginServices() {
+        return SPILocator.locateAll(IGamePluginService.class);
+    }
+
+    private Collection<? extends IEntityProcessingService> getEntityProcessingServices() {
+        return SPILocator.locateAll(IEntityProcessingService.class);
+    }
+
+    private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices() {
+        return SPILocator.locateAll(IPostEntityProcessingService.class);
     }
 }

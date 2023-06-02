@@ -2,6 +2,7 @@ org\example\asteroids\services\IEntityProcessingService.class
 org\example\asteroids\data\Entity.class
 org\example\asteroids\data\GameKeys.class
 org\example\asteroids\events\Event.class
+org\example\asteroids\util\SPILocator.class
 org\example\asteroids\data\entityparts\IEntityPart.class
 org\example\asteroids\services\IPostEntityProcessingService.class
 org\example\asteroids\data\World.class
