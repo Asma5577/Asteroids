@@ -4,7 +4,257 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="597912d4-080c-455c-a90f-3ccd423e41f5" name="Changes" comment="" />
+    <list default="true" id="597912d4-080c-455c-a90f-3ccd423e41f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonAsteroids/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/org/example/asteroids/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidSplitterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/Bullet-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/org/example/asteroids/BulletControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/org/example/asteroids/BulletPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/Collision-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/classes/org/example/asteroids/CollisionDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/classes/org/example/asteroids/Asteroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/classes/org/example/asteroids/IAsteroidSplitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonAsteroids/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/org/example/asteroids/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/org/example/asteroids/BulletSPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/src/main/java/org/example/asteroids/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/CommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/classes/org/example/asteroids/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/classes/org/example/asteroids/main/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/classes/org/example/asteroids/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/classes/org/example/asteroids/managers/GameInputProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/org/example/asteroids/EnemyControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/org/example/asteroids/EnemyControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/org/example/asteroids/EnemyPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/org/example/asteroids/EnemyPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/org/example/asteroids/EnemyControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/org/example/asteroids/EnemyPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/org/example/asteroids/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/org/example/asteroids/PlayerControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/org/example/asteroids/PlayerPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/Asteroid (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/src/main/java/org/example/asteroids/asteroid/AsteroidPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/src/main/java/org/example/asteroids/asteroid/AsteroidProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/src/main/java/org/example/asteroids/asteroid/AsteroidSplitterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/src/main/resources/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/src/main/resources/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/classes/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/classes/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/classes/org/example/asteroids/asteroid/AsteroidSplitterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Asteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/Bullet (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/src/main/java/org/example/asteroids/BulletControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/src/main/java/org/example/asteroids/BulletPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/src/main/resources/META-INF.services/org.example.asteroids.BulletSPI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/src/main/resources/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/src/main/resources/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/Bullet-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/classes/META-INF.services/org.example.asteroids.BulletSPI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/classes/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/classes/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/classes/org/example/asteroids/BulletControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/classes/org/example/asteroids/BulletPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Bullet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/Collision (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/src/main/java/org/example/asteroids/CollisionDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/src/main/resources/META-INF.services/org.example.asteroids.services.IPostEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/Collision-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/classes/META-INF.services/org.example.asteroids.services.IPostEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/classes/org/example/asteroids/CollisionDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Collision/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/Common (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/GameData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/GameKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/entityparts/IEntityPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/entityparts/LifePart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/entityparts/MovingPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/entityparts/PositionPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/data/entityparts/TimerPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/events/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/services/IEntityProcessingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/services/IGamePluginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/src/main/java/org/example/asteroids/services/IPostEntityProcessingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/Common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/GameData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/GameKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/entityparts/IEntityPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/entityparts/LifePart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/entityparts/MovingPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/entityparts/PositionPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/data/entityparts/TimerPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/events/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/services/IEntityProcessingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/services/IGamePluginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/classes/org/example/asteroids/services/IPostEntityProcessingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/CommonAsteroids (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/src/main/java/org/example/asteroids/Asteroid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/src/main/java/org/example/asteroids/IAsteroidSplitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/src/main/resources/org.example.asteroids/Bundle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/CommonAsteroids-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/classes/org.example.asteroids/Bundle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/classes/org/example/asteroids/Asteroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/classes/org/example/asteroids/IAsteroidSplitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonAsteroids/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/CommonBullet (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/src/main/java/org/example/asteroids/Bullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/src/main/java/org/example/asteroids/BulletSPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/src/main/resources/org.example.asteroids/Bundle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/classes/org.example.asteroids/Bundle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/classes/org/example/asteroids/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/classes/org/example/asteroids/BulletSPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonBullet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/CommonEnemy (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/src/main/java/org/example/asteroids/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/CommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/classes/org/example/asteroids/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/CommonEnemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/Core (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/src/main/java/org/example/asteroids/main/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/src/main/java/org/example/asteroids/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/src/main/java/org/example/asteroids/managers/GameInputProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/classes/org/example/asteroids/main/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/classes/org/example/asteroids/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/classes/org/example/asteroids/managers/GameInputProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/Enemy (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/src/main/java/org/example/asteroids/EnemyControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/src/main/java/org/example/asteroids/EnemyPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/src/main/resources/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/src/main/resources/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/Enemy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/classes/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/classes/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/classes/org/example/asteroids/EnemyControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/classes/org/example/asteroids/EnemyPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Enemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/JavaLab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/Player (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/src/main/java/org/example/asteroids/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/src/main/java/org/example/asteroids/PlayerControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/src/main/java/org/example/asteroids/PlayerPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/src/main/resources/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/src/main/resources/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/Player-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/classes/META-INF.services/org.example.asteroids.services.IEntityProcessingService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/classes/META-INF.services/org.example.asteroids.services.IGamePluginService" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/classes/org/example/asteroids/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/classes/org/example/asteroids/PlayerControlSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/classes/org/example/asteroids/PlayerPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/Player/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLab/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +263,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +293,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Component Based System/Master",
+    "last_opened_file_path": "E:/Component Based System/New folder (2)/Asteroids/GameLab",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +311,8 @@
       <updated>1684660306717</updated>
       <workItem from="1684660308025" duration="118000" />
       <workItem from="1684660636903" duration="10579000" />
+      <workItem from="1685688482176" duration="92000" />
+      <workItem from="1685688648490" duration="2443000" />
     </task>
     <servers />
   </component>

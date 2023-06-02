@@ -2,13 +2,11 @@ package org.example.asteroids;
 
 import org.example.asteroids.data.Entity;
 import org.example.asteroids.data.GameData;
-import org.example.asteroids.BulletSPI;
 
 import org.example.asteroids.data.World;
 import org.example.asteroids.data.entityparts.LifePart;
 import org.example.asteroids.data.entityparts.MovingPart;
 import org.example.asteroids.data.entityparts.PositionPart;
-import org.example.asteroids.Enemy;
 import org.example.asteroids.services.IEntityProcessingService;
 import java.util.Random;
 

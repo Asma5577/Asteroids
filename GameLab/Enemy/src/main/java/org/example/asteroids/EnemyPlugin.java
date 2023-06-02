@@ -6,7 +6,6 @@ import org.example.asteroids.data.World;
 import org.example.asteroids.data.entityparts.LifePart;
 import org.example.asteroids.data.entityparts.MovingPart;
 import org.example.asteroids.data.entityparts.PositionPart;
-import org.example.asteroids.Enemy;
 import org.example.asteroids.services.IGamePluginService;
 import java.util.Random;
 
