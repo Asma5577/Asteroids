@@ -1,0 +1,4 @@
+org\example\asteroid\AsteroidSplitterImpl.class
+module-info.class
+org\example\asteroid\AsteroidPlugin.class
+org\example\asteroid\AsteroidProcessor.class

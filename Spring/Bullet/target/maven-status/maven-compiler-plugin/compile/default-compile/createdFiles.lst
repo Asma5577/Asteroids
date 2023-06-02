@@ -1,0 +1,3 @@
+module-info.class
+org\example\bulletsystem\BulletControlSystem.class
+org\example\bulletsystem\BulletPlugin.class
