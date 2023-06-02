@@ -6,6 +6,7 @@ org\example\asteroids\data\entityparts\IEntityPart.class
 org\example\asteroids\services\IPostEntityProcessingService.class
 org\example\asteroids\data\World.class
 org\example\asteroids\data\entityparts\MovingPart.class
+module-info.class
 org\example\asteroids\data\entityparts\LifePart.class
 org\example\asteroids\data\entityparts\TimerPart.class
 org\example\asteroids\data\entityparts\PositionPart.class
